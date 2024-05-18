@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle deedeeg-my-new-package-1092837123'
+      'command': 'deedeeg-my-new-package-1092837123:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'deedeeg-my-new-package-1092837123'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'deedeeg-my-new-package-1092837123:toggle'
+        }
+      ]
+    ]
+  }
+]
